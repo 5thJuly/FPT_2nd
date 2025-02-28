@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="Trang-1" id="3V1mbge0oOwgzor044g2">
-    <mxGraphModel dx="1970" dy="1184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1465" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,9 +153,6 @@
         </mxCell>
         <mxCell id="uCpHYPL4uAlhx9UP-cmn-66" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="140.00106382978723" y="1050" width="47.030319148936165" height="15" as="geometry" />
-        </mxCell>
-        <mxCell id="uCpHYPL4uAlhx9UP-cmn-63" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="940" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uCpHYPL4uAlhx9UP-cmn-62" value="Service Implement" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="960" width="120" height="60" as="geometry" />
@@ -384,6 +381,20 @@
             <mxPoint x="511.67" y="1900" as="sourcePoint" />
             <mxPoint x="836.67" y="1860" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCpHYPL4uAlhx9UP-cmn-156" value="&amp;lt;&amp;lt;call&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uCpHYPL4uAlhx9UP-cmn-34" target="uCpHYPL4uAlhx9UP-cmn-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1050" as="sourcePoint" />
+            <mxPoint x="382.5999999999999" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCpHYPL4uAlhx9UP-cmn-157" value="Return value" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uCpHYPL4uAlhx9UP-cmn-62" target="uCpHYPL4uAlhx9UP-cmn-34">
+          <mxGeometry x="-0.1192" y="-1" relative="1" as="geometry">
+            <mxPoint x="550" y="869" as="sourcePoint" />
+            <mxPoint x="590" y="740" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
