@@ -401,12 +401,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9xeLw-gZzjNfefBRev7X" name="Trang-2">
-    <mxGraphModel dx="1379" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5kiLRfzxZcQlgSy3V67r-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="370" y="40" width="60" height="60" as="geometry" />
+          <mxGeometry x="380" y="70" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5kiLRfzxZcQlgSy3V67r-3" value="User input Login information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
@@ -430,6 +430,61 @@
             <mxPoint x="270" y="450" as="sourcePoint" />
             <mxPoint x="320" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-9" value="Check for security risks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="567" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-10" value="Login denied" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="567" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.146;exitY=0.642;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5kiLRfzxZcQlgSy3V67r-7" target="5kiLRfzxZcQlgSy3V67r-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="620" as="sourcePoint" />
+            <mxPoint x="320" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5kiLRfzxZcQlgSy3V67r-11">
+          <mxGeometry x="0.202" y="1" relative="1" as="geometry">
+            <mxPoint x="22" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.829;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5kiLRfzxZcQlgSy3V67r-7" target="5kiLRfzxZcQlgSy3V67r-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449.99999999999983" y="439.99999999999994" as="sourcePoint" />
+            <mxPoint x="595.2699999999999" y="579.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-19" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5kiLRfzxZcQlgSy3V67r-18">
+          <mxGeometry x="0.202" y="1" relative="1" as="geometry">
+            <mxPoint x="12" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5kiLRfzxZcQlgSy3V67r-9" target="5kiLRfzxZcQlgSy3V67r-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="650" as="sourcePoint" />
+            <mxPoint x="190" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-22" value="Risk Level" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.211;exitY=0.711;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5kiLRfzxZcQlgSy3V67r-22" target="5kiLRfzxZcQlgSy3V67r-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="780" as="sourcePoint" />
+            <mxPoint x="130" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-25" value="Initialize MFA authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="810" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5kiLRfzxZcQlgSy3V67r-22" target="5kiLRfzxZcQlgSy3V67r-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="750" as="sourcePoint" />
+            <mxPoint x="320" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-27" value="Account banned" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="810" width="120" height="32.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
