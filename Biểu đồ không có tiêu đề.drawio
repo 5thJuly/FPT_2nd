@@ -401,7 +401,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9xeLw-gZzjNfefBRev7X" name="Trang-2">
-    <mxGraphModel dx="1021" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2313" dy="1233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -421,7 +421,7 @@
           <mxGeometry x="265" y="280" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5kiLRfzxZcQlgSy3V67r-42" value="VerifyBasicCredentials" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="360" width="290" height="240" as="geometry" />
+          <mxGeometry x="440" y="340" width="290" height="240" as="geometry" />
         </mxCell>
         <mxCell id="5kiLRfzxZcQlgSy3V67r-43" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="5kiLRfzxZcQlgSy3V67r-42">
           <mxGeometry x="135" y="30" width="20" height="20" as="geometry" />
@@ -471,7 +471,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5kiLRfzxZcQlgSy3V67r-48" value="MultiFactorAuth" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="660" width="290" height="440" as="geometry" />
+          <mxGeometry x="490" y="610" width="290" height="440" as="geometry" />
         </mxCell>
         <mxCell id="5kiLRfzxZcQlgSy3V67r-50" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="5kiLRfzxZcQlgSy3V67r-48">
           <mxGeometry x="135" y="30" width="20" height="20" as="geometry" />
@@ -522,7 +522,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5kiLRfzxZcQlgSy3V67r-62" value="join_state" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1150" width="660" height="200" as="geometry" />
+          <mxGeometry x="90" y="1090" width="660" height="200" as="geometry" />
         </mxCell>
         <mxCell id="5kiLRfzxZcQlgSy3V67r-52" value="BlockAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5kiLRfzxZcQlgSy3V67r-62">
           <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
@@ -533,14 +533,8 @@
         <mxCell id="5kiLRfzxZcQlgSy3V67r-64" value="DenyAccess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5kiLRfzxZcQlgSy3V67r-62">
           <mxGeometry x="270" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5kiLRfzxZcQlgSy3V67r-66" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1420" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5kiLRfzxZcQlgSy3V67r-67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="205" y="1425" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="5kiLRfzxZcQlgSy3V67r-68" value="CheckSecurityRisk" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="90" y="820" width="270" height="280" as="geometry" />
+          <mxGeometry x="85" y="530" width="270" height="280" as="geometry" />
         </mxCell>
         <mxCell id="5kiLRfzxZcQlgSy3V67r-69" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="5kiLRfzxZcQlgSy3V67r-68">
           <mxGeometry x="120" y="30" width="20" height="20" as="geometry" />
@@ -605,7 +599,7 @@
             <mxPoint x="500" y="1210" as="targetPoint" />
             <Array as="points">
               <mxPoint x="490" y="1190" />
-              <mxPoint x="480" y="1210" />
+              <mxPoint x="470" y="1120" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -632,6 +626,15 @@
             <mxPoint x="310" y="1475" as="sourcePoint" />
             <mxPoint x="360" y="1425" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-93" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="1330" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-66" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="5kiLRfzxZcQlgSy3V67r-93">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5kiLRfzxZcQlgSy3V67r-67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="5kiLRfzxZcQlgSy3V67r-93">
+          <mxGeometry x="5" y="5" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
