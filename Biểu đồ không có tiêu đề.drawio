@@ -11,7 +11,7 @@
           <mxGeometry x="100" y="907.741935483871" width="509.9999999999999" height="352.258064516129" as="geometry" />
         </mxCell>
         <mxCell id="uCpHYPL4uAlhx9UP-cmn-2" value="Web Application" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="360" width="220" height="70" as="geometry" />
+          <mxGeometry x="310" y="350" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uCpHYPL4uAlhx9UP-cmn-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;TechNihongo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="170" width="530" height="60" as="geometry" />
